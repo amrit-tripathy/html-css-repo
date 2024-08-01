@@ -1,0 +1,219 @@
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 1rem;
+}
+
+
+.head2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%; 
+}
+
+
+.head2nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px; 
+    padding: 10px 15px; 
+    background-color: #ebf6fa; 
+    border: 1px solid #fafafa; 
+    border-radius: 10px; 
+    border-left: 1px solid rgba(0, 0, 0, 0.1); 
+    border-right: 1px solid rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.head2nav:hover {
+    background-color: white;
+    color: blue;
+    cursor: pointer; 
+}
+
+
+.secondHeads {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4f8da;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+
+.secondHead {
+    padding: 20px 30px; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.number {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    color: #333; 
+}
+
+.OurProds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.prodtext{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb( 85, 85, 85);
+}
+.totalcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(250, 234, 234);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    transition: 0.3s ease;
+}
+.cards:hover{
+    transform: translateY(-10px);
+}
+
+.cardGen{
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+.cardhead1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.cardhead{
+    font-size: large;
+    font-family:cursive;
+    color: rgb(58, 58, 219);
+    background-color: rgb(209, 230, 241);
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cardInfo1{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb( 85, 85, 85);
+    text-align: center;
+}
+.butCard{
+    position: absolute;
+    top:270px;
+    left:55px;
+    border-radius: 15px;
+    text-align: center;
+    color: orange;
+    background-color: rgb(250, 246, 240);
+    font-weight: bolder;
+    padding: 10px 20px;
+    width: 150px;
+    cursor: pointer;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px;
+}
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 280px; 
+    margin: 10px; 
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    border: 3px solid #ddd; 
+    margin-bottom: 15px; 
+}
+.name {
+    font-size: 1.4em;
+    margin: 10px 0;
+    color: #333;
+}
+.title {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+.text {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.stat {
+    font-size: 1.1em;
+    color: #333;
+}
+.footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333; 
+    color: azure; 
+    padding: 30px 20px; 
+    text-align: center; 
+    border-top: 2px solid #444; 
+}

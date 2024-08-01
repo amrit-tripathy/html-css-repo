@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // document.write("<h1 id=id1>hello js..</h1>");   //writes on screen 
+        // var var1=13;
+        // document.write(var1+" "+typeof(var1));
+
+        let i=5;//block scope 
+        var x=45;//functional scope
+        
+        document.write(i);
+
+        {
+            const pi=3.14;//const var cannot change values and its scope is within the block
+            pi=45;
+            document.write(pi);
+        }
+
+
+
+    </script>
+
+</body>
+</html>
